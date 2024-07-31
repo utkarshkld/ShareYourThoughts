@@ -1,0 +1,41 @@
+.hide-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;  /* WebKit-based browsers */
+}
+
+.quill.hide-toolbar {
+    .ql-toolbar {
+      display: none !important;
+      border:none;
+    }
+    .ql-container {    
+      font-size: larger;  
+      min-width: 100px;    
+      border: none;     
+      
+    }
+    .ql-editor img {
+      line-height: 4;
+    }
+    .ql-editor .ql-video {
+      
+      min-width: 100%;
+      min-height: 300px;
+      width: auto;
+      height: auto;
+     
+  }
+  
+    .ql-editor img {    
+      display: block;     
+      width: 50%; 
+      padding: 10px;
+      border-radius: 20px;
+      height: auto;
+    }
+    
+  }
